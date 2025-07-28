@@ -1,5 +1,5 @@
 plugins {
-    id 'fabric-loom' version '1.11-SNAPSHOT'  // use the loom_version from the site
+    id 'fabric-loom' version '1.11-SNAPSHOT'
     id 'java'
 }
 
@@ -17,6 +17,6 @@ dependencies {
     modImplementation "net.fabricmc.fabric-api:fabric-api:0.129.0+1.21.7"
 }
 
-minecraft {
-    // no special config needed here, remove if empty
-}
+// Remove or comment out this empty block:
+// minecraft {
+// }
