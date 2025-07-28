@@ -18,6 +18,16 @@ dependencies {
 }
 
 minecraft {
-    // any minecraft extension config if needed
+    version = "1.21.7"
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'fabric-api.debug', true
+            mods {
+                cursedlife {
+                    source sourceSets.main
+                }
+            }
+        }
+    }
 }
-
