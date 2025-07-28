@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "cursedlife",
-  "version": "${1.0.0}",
+  "version": "1.0.0",
   "name": "Cursed Life",
   "description": "A mod adding curses, time manipulation, and new gameplay mechanics for the Life Series.",
   "authors": [
@@ -16,10 +16,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.Lord-09Mayhem.cursedlife.CursedLifeMod"
+      "com.lord_09mayhem.cursedlife.CursedLife"
     ],
     "client": [
-      "com.Lord-09Mayhem.cursedlife.client.CursedLifeClient"
+      "com.lord_09mayhem.cursedlife.client.CursedLifeClient"
     ]
   },
   "mixins": [
