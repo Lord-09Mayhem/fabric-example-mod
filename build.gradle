@@ -7,9 +7,16 @@ group = 'com.lord_09mayhem'
 version = '1.0.0'
 
 repositories {
+    maven {
+        url = "https://maven.fabricmc.net/"
+    }
     mavenCentral()
-    maven { url = 'https://maven.fabricmc.net/' }
+    // Also ensure you have Minecraft libraries repo:
+    maven {
+        url = "https://libraries.minecraft.net/"
+    }
 }
+
 
 dependencies {
     minecraft "com.mojang:minecraft:1.21.7"
