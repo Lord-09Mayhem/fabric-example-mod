@@ -1,5 +1,5 @@
 plugins {
-    id 'fabric-loom' version '1.11.4'
+    id 'fabric-loom' version '1.3-SNAPSHOT' // Stable Loom that works with 1.21.7
     id 'java'
 }
 
@@ -12,8 +12,11 @@ repositories {
 }
 
 dependencies {
+    // Minecraft
     minecraft "com.mojang:minecraft:1.21.7"
     mappings "net.fabricmc:yarn:1.21.7+build.8:v2"
-    modImplementation "net.fabricmc.fabric-loader:fabric-loader:0.16.14"
+
+    // Fabric Loader + API
+    modImplementation "net.fabricmc.fabric-loader:fabric-loader:0.15.9"
     modImplementation "net.fabricmc.fabric-api:fabric-api:0.129.0+1.21.7"
 }
